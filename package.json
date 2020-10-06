@@ -1,0 +1,26 @@
+{
+  "name": "Etsy-SellerDescription-Proxy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alvindelito/Etsy-SellerDescription-Proxy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alvindelito/Etsy-SellerDescription-Proxy/issues"
+  },
+  "homepage": "https://github.com/Alvindelito/Etsy-SellerDescription-Proxy#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "http-proxy-middleware": "^1.0.5"
+  }
+}

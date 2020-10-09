@@ -1,0 +1,46 @@
+body {
+  margin: 0px;
+}
+
+#description-module {
+  display: grid;
+  max-width: 1400px;
+  margin: 0 auto;
+  grid-template-columns: 65% 35%;
+  grid-template-rows: 1fr;
+  grid-column-gap: 15px;
+  grid-template-areas:
+    "reviews seller-info";
+}
+
+#DisplayProduct {
+  max-width: 1400px;
+  margin: 30px auto 0 auto;
+}
+
+#reviews {
+  grid-area: reviews;
+  margin-top: -100px;
+}
+
+#seller-info {
+  grid-area: seller-info;
+  margin-top: 200px;
+  padding: 0 20px;
+}
+
+@media (max-width: 899px) {
+  #description-module {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+      "seller-info"
+      "reviews";
+  }
+
+  #seller-info {
+    margin-top: 100px;
+  }
+}

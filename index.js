@@ -25,4 +25,4 @@ app.use('/related', createProxyMiddleware({ target: 'http://localhost:8005/', ch
 
 app.use('/', express.static(path.join(__dirname, 'public')));
 
-app.listen(8094);
+app.listen(3000);

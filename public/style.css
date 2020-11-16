@@ -20,12 +20,12 @@ body {
 
 #reviews {
   grid-area: reviews;
-  margin-top: -100px;
+  margin-top: -275px;
 }
 
 #seller-info {
   grid-area: seller-info;
-  margin-top: 200px;
+  margin-top: 215px;
   padding: 0 20px;
 }
 
